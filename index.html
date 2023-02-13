@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <title>Gradie Sign Up Page</title>
+ </head>
+ <body>
+    <div id="main-box">
+        <div id="column-first">
+            <h1>Gradie</h1>
+            <p>Beautiful gradients in seconds.</p>
+            <img src="Assets/iPhone Mockup.png" />
+        </div>
+        <div id="column-second">
+            <h1>Login</h1>
+            <form id="information">
+                <label id="email-input">Email
+                    <input type="email" class="block" placeholder="john@example.com" required />
+                </label>
+                <label id="password-input">Password
+                    <input type="password" class="block" minlength="8" placeholder="At least 8 characters" required />
+                </label>
+                <div id="terms">
+                    <input type="checkbox" name="agreement" required />
+                        <label for="agreement" id="agreement">By creating an account, you agree to the <a href="" id="terms-and-conditions">Terms & Conditions</a>.
+                        </label>
+                    </div>
+                <button class="block">Create an Account</button>
+            </form>
+        </div>
+    </div>
+ </body>
+</html>
